@@ -3,10 +3,7 @@ import {
   AiOutlineContacts,
   AiOutlineHome,
   AiOutlineLaptop,
-  AiOutlineLine,
   AiOutlineMenu,
-  AiOutlineProfile,
-  AiOutlineProject,
 } from "react-icons/ai";
 import { GrProjects } from "react-icons/gr";
 import { BsPerson } from "react-icons/bs";
@@ -20,37 +17,37 @@ const Sidenav = () => {
     <div>
       <AiOutlineMenu
         onClick={handleNav}
-        className="absolute top-4 right-4 z-[99] md:hidden"
+        className="absolute top-4 right-4 z-[99] md:hidden text-green-500"
       />
       {nav ? (
         <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
           <a
             href="#home"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-yellow-200 shadow-orange-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 "
+            className="w-[75%] flex justify-center items-center rounded-full  bg-green-800 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 "
           >
-            <AiOutlineHome size={20} />
-            <span className="pl-4 text-gray-500">Home</span>
+            <AiOutlineHome size={20} className="text-green-300" />
+            <span className="pl-4 text-green-100">Home</span>
           </a>
           <a
             href="#portfolio"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-yellow-200 shadow-orange-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 "
+            className="w-[75%] flex justify-center items-center rounded-full  bg-green-800 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 "
           >
-            <BsPerson size={20} />
-            <span className="pl-4 text-gray-500">Portfolio</span>
+            <BsPerson size={20} className="text-green-300" />
+            <span className="pl-4 text-green-100">Portfolio</span>
           </a>{" "}
           <a
             href="#projects"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-yellow-200 shadow-orange-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 "
+            className="w-[75%] flex justify-center items-center rounded-full  bg-green-800 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 "
           >
-            <GrProjects size={20} />
-            <span className="pl-4 text-gray-500">Projects</span>
+            <GrProjects size={20} className="text-green-300" />
+            <span className="pl-4 text-green-100">Projects</span>
           </a>{" "}
           <a
             href="#contact"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-yellow-200 shadow-orange-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 "
+            className="w-[75%] flex justify-center items-center rounded-full  bg-green-800 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 "
           >
-            <AiOutlineContacts size={20} />
-            <span className="pl-4 text-gray-500">Contact</span>
+            <AiOutlineContacts size={20} className="text-green-300" />
+            <span className="pl-4 text-green-100">Contact</span>
           </a>
         </div>
       ) : (
@@ -60,27 +57,27 @@ const Sidenav = () => {
         <div className="flex flex-col ">
           <a
             href="#home"
-            className="rounded-full shadow-lg bg-yellow-200 shadow-orange-100 m-2 p-4 cursor-pointer ease-in duration-300"
+            className="rounded-full  bg-green-800  m-2 p-4 cursor-pointer ease-in duration-300"
           >
-            <AiOutlineHome size={20} />
+            <AiOutlineHome size={20} className="text-slate-100" />
           </a>
           <a
             href="#portfolio"
-            className="rounded-full shadow-lg bg-yellow-200 shadow-orange-100 m-2 p-4 cursor-pointer ease-in duration-300"
+            className="rounded-full  bg-green-800   m-2 p-4 cursor-pointer ease-in duration-300"
           >
-            <AiOutlineLaptop size={20} />
+            <AiOutlineLaptop size={20} className="text-slate-100" />
           </a>
           <a
             href="#projects"
-            className="rounded-full shadow-lg bg-yellow-200 shadow-orange-100 m-2 p-4 cursor-pointer ease-in duration-300"
+            className="rounded-full  bg-green-800 m-2 p-4 cursor-pointer ease-in duration-300"
           >
-            <GrProjects size={20} />
+            <GrProjects size={20} className="text-slate-100" />
           </a>{" "}
           <a
             href="#contact"
-            className="rounded-full shadow-lg bg-yellow-200 shadow-orange-100 m-2 p-4 cursor-pointer ease-in duration-300"
+            className="rounded-full  bg-green-800 m-2 p-4 cursor-pointer ease-in duration-300"
           >
-            <AiOutlineContacts size={20} />
+            <AiOutlineContacts size={20} className="text-slate-100" />
           </a>
         </div>
       </div>
