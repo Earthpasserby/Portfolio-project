@@ -25,6 +25,21 @@ const data = [
 ];
 
 const Portfolio = () => {
-  return <div>Portfolio</div>;
+  return (
+    <div id="portfolio" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+      <h1 className="text-4xl font-bold text-center  text-green-800">
+        Portfolio
+      </h1>
+      {data.map((item, idx) => (
+        <Port
+          key={idx}
+          year={item.year}
+          title={item.title}
+          duration={item.duration}
+          details={item.details}
+        />
+      ))}
+    </div>
+  );
 };
 export default Portfolio;
