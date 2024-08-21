@@ -10,7 +10,7 @@ const data = [
   },
   {
     year: 2023,
-    title: "MARKETBOX",
+    title: "Marketbox",
     duration: "Active",
     details:
       "At MarketBox is a startup that covers digital-market reach for organization and business looking to reach a particular audience or market within the digital sphere, i basically cover part content writing and anything related with website creations and questions related to the web-market ",
