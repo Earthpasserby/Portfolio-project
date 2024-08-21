@@ -3,7 +3,7 @@ const Port = ({ year, title, duration, details }) => {
   return (
     <>
       <ol className="flex flex-col md:flex-row relative border-l border-stone-200">
-        <li>
+        <li className="mb-10">
           <div />
           <p>
             <span>{year}</span>
