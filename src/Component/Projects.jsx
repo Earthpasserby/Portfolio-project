@@ -11,11 +11,17 @@ const Projects = () => {
       <h1 className="text-4xl font-bold text-center text-green-800">
         Projects
       </h1>
-      <p>
+      <p className="text-center py-8 text-green-800">
         This a some live and demo projects which i have worked on, i currently
         have two live projects looking forward to get hands on more projects
         while enhancing or building up my skill set
       </p>
+      <div className="grid sm:grid-cols-2 gap-12">
+        <ProjectItem img={comeImg} title="E-commerce demo " />
+        <ProjectItem img={brandImg} title="Branding/Digital Marketing demo" />
+        <ProjectItem img={auteImg} title="Medical Outreach live project" />
+        <ProjectItem img={palynxImg} title="Discover (events, people & places) live project" />
+      </div>
     </div>
   );
 };
