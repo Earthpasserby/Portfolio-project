@@ -17,10 +17,21 @@ const Projects = () => {
         while enhancing or building up my skill set
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={comeImg} title="E-commerce demo " />
-        <ProjectItem img={brandImg} title="Branding/Digital Marketing demo" />
-        <ProjectItem img={auteImg} title="Medical Outreach live project" />
-        <ProjectItem img={palynxImg} title="Discover (events, people & places) live project" />
+        <a href="https://earthpasserby.github.io/ecommerce/detail.html">
+          <ProjectItem img={comeImg} title="E-commerce demo " />{" "}
+        </a>
+        <a href="https://tbp-site.vercel.app/">
+          <ProjectItem img={brandImg} title="Branding/Digital Marketing demo" />
+        </a>
+        <a href="https://astutetechmedicals.com.ng/">
+          <ProjectItem img={auteImg} title="Medical Outreach live project" />
+        </a>
+        <a href="https://www.palynx.com/">
+          <ProjectItem
+            img={palynxImg}
+            title="Discover (events, people & places) live project"
+          />
+        </a>
       </div>
     </div>
   );
