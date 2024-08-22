@@ -29,7 +29,7 @@ const Projects = () => {
         <a href="https://www.palynx.com/">
           <ProjectItem
             img={palynxImg}
-            title="Discover (events, people & places) live project"
+            title="Discover(events & more)live project"
           />
         </a>
       </div>

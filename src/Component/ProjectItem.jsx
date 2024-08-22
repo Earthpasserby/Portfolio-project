@@ -12,6 +12,11 @@ const ProjectItem = ({ img, title }) => {
         <h3 className="text-2xl font-bold text-green-50 traking-wider text-center">
           {title}
         </h3>
+        <a href="https://wa.me/message/2O47ANZPICY5M1">
+          <p className="text-center p-3 rounded-lg bg-white text-green-800 font-bold cursor-pointer text-lg">
+            Lets Work
+          </p>
+        </a>
       </div>
     </div>
   );
