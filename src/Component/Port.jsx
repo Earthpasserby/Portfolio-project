@@ -6,11 +6,19 @@ const Port = ({ year, title, duration, details }) => {
         <li className="mb-10 ml-10">
           <div className="absolute w-3 h-3 bg-green-800 rounded-full mt-1.5 -left-1.5 border-white" />
           <p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
-            <span>{year}</span>
-            <span>{title}</span>
-            <span>{duration}</span>
+            <span className="inline-block px-2 py-1 font-semibold text-white bg-green-600 rounded-sm">
+              {year}
+            </span>
+            <span className="text-lg font-semibold text-green-600">
+              {title}
+            </span>
+            <span className="inline-block px-2 py-1 font-normal leading-none text-white bg-yellow-600 rounded-sm text-sm ">
+              {duration}
+            </span>
           </p>
-          <p>{details}</p>
+          <p className="my-2 text-base font-normal text-green-800">
+            {details}
+          </p>
         </li>
       </ol>
     </>
