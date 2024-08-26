@@ -5,6 +5,7 @@ import Sidenav from "./Component/Sidenav";
 import Main from "./Component/Main";
 import Portfolio from "./Component/Portfolio";
 import Projects from "./Component/Projects";
+import Contact from "./Component/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Main />
         <Portfolio />
         <Projects />
+        <Contact />
       </Router>
     </>
   );
