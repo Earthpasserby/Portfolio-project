@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaTwitter } from "react-icons/fa";
+import {  FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { TypeAnimation } from "react-type-animation";
 
@@ -13,10 +13,10 @@ const Main = () => {
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/5">
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
-          <h1 className="text-lime-200 sm:text-6xl text-4xl font-bold">
+          <h1 className="text-lime-100 sm:text-6xl text-4xl font-bold text-center">
             I'm Iwuno Samuel
           </h1>
-          <h6 className="text-lime-200 sm:text-5xl text-3xl font-bold pt-4 mx-7">
+          <h6 className="text-lime-200 sm:text-5xl text-3xl font-bold pt-4 mx-7 text-center">
             <TypeAnimation
               className="mx-2"
               sequence={[
@@ -35,9 +35,18 @@ const Main = () => {
             />
           </h6>
           <div className="flex pt-6  max-w-[200px] w-full justify-between mx-36 ">
-            <FaLinkedin size={30} className="cursor-poointer text-lime-200 " />
-            <FaInstagram size={30} className="cursor-poointer text-lime-200" />
-            <FaTwitter size={30} className="cursor-poointer text-lime-200" />
+            <a href="https://www.linkedin.com/in/iwuno-samuel-5819b6121/">
+              <FaLinkedin
+                size={30}
+                className="cursor-poointer text-lime-200 "
+              />
+            </a>
+            <a href="https://wa.me/message/2O47ANZPICY5M1">
+              <FaWhatsapp size={30} className="cursor-poointer text-lime-200" />
+            </a>
+            <a href="https://x.com/iwuno68">
+              <FaTwitter size={30} className="cursor-poointer text-lime-200" />
+            </a>
           </div>
         </div>
       </div>
