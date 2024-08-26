@@ -12,7 +12,7 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8 text-green-800">
-        This a some live and demo projects which i have worked on, i currently
+        This are some live and demo projects which i have worked on, i currently
         have two live projects looking forward to get hands on more projects
         while enhancing or building up my skill set
       </p>

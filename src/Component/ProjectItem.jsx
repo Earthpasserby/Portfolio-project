@@ -9,7 +9,7 @@ const ProjectItem = ({ img, title }) => {
         className="rounded-xl group-hover:opacity-20"
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%]  translate-y-[-50%]">
-        <h3 className="text-2xl font-bold text-green-50 traking-wider text-center">
+        <h3 className="text-2xl font-bold text-green-900 traking-wider text-center">
           {title}
         </h3>
         <a href="https://wa.me/message/2O47ANZPICY5M1">
