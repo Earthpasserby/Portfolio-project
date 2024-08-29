@@ -6,7 +6,7 @@ const data = [
     title: "Iwuno Samuel",
     duration: "Intermediate",
     details:
-      "I started having a keen interest in tech in the late 2022, and decided to dive fully it 2023 the journey so far has been demanding which involves time,critical thinking and lots more. Currently on the Frontend Development stack ",
+      "I started having a keen interest in tech in the last quarters of 2022, and decided to dive fully into it in the first quarters of 2023. The journey thus far has been quiet eventful which involves time, critical thinking and lots more. Currently on the Frontend Development stack and i can proudly say the global village thrives on technology, my experiences are on (Html, Css, Javascript, Bootstrap, Reactjs and TailwindCss) looking to skillup, also venture some of my time in writing and expand more on my specified niches.",
   },
   {
     year: 2024,
