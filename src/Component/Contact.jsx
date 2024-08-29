@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div id="contact" className="bg-green-600 mt-10 rounded-lg p-2">
+    <div id="contact" className="bg-green-600 mt-20 rounded-lg p-2 ">
       <h1 className="text-4xl font-bold text-center text-lime-100 pt-5">
         Contact
       </h1>

@@ -12,8 +12,8 @@ const Main = () => {
         alt="background-image"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/5">
-        <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
-          <h1 className="text-lime-100 sm:text-6xl text-4xl font-bold text-center">
+        <div className=" m-auto h-full w-full flex flex-col justify-center  items-center">
+          <h1 className="text-lime-100 sm:text-6xl text-4xl font-bold text-center items-stretch">
             I'm Iwuno Samuel
           </h1>
           <h6 className="text-lime-200 sm:text-5xl text-3xl font-bold pt-4 mx-7 text-center">
@@ -34,7 +34,7 @@ const Main = () => {
               repeat={Infinity}
             />
           </h6>
-          <div className="flex pt-6  max-w-[200px] w-full justify-between mx-36 ">
+          <div className="flex pt-10  max-w-[300px] w-full justify-between">
             <a href="https://www.linkedin.com/in/iwuno-samuel-5819b6121/">
               <FaLinkedin
                 size={30}
