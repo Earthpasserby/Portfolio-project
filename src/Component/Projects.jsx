@@ -18,7 +18,7 @@ const Projects = () => {
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <a href="https://earthpasserby.github.io/ecommerce/detail.html">
-          <ProjectItem img={comeImg} title="E-commerce demo " />{" "}
+          <ProjectItem img={comeImg} title="E-commerce demo " />
         </a>
         <a href="https://tbp-site.vercel.app/">
           <ProjectItem img={brandImg} title="Branding/Digital Marketing demo" />
