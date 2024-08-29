@@ -1,10 +1,10 @@
 import React from "react";
-import { FaWhatsapp, FaTwitter } from "react-icons/fa";
+import { FaWhatsapp, FaTwitter, FaMailBulk } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div id="contact" className="bg-green-600 mt-20 rounded-lg p-2 ">
+    <div id="contact" className="bg-green-700 mt-20 rounded-lg p-2  ">
       <h1 className="text-4xl font-bold text-center text-lime-100 pt-5">
         Contact
       </h1>
@@ -22,7 +22,7 @@ const Contact = () => {
         </div> */}
       </div>
       <div className="flex justify-center p-5">
-        <div className="grid sm:grid-cols-2 gap-12">
+        <div className="grid sm:grid-cols-4 gap-11">
           <div className="flex">
             <a href="https://www.linkedin.com/in/iwuno-samuel-5819b6121/">
               <FaLinkedin
@@ -30,48 +30,53 @@ const Contact = () => {
                 className="cursor-poointer text-lime-200 "
               />
             </a>
-            <p className=" pt-1 mx-2 text-lime-100 text-md text-center">
+            <a
+              href="https://www.linkedin.com/in/iwuno-samuel-5819b6121/"
+              className=" pt-1 mx-2 text-lime-100 text-md text-center"
+            >
               Linkup on Linkedin
-            </p>
+            </a>
           </div>
           <div className="flex">
-            <a href="https://earthpasserby.github.io/ecommerce/detail.html">
+            <a href="https://x.com/iwuno68">
               <FaTwitter size={30} className="cursor-poointer text-lime-200" />
             </a>
-            <p className=" pt-1 mx-2 text-lime-100 text-md text-center">
+            <a
+              href="https://x.com/iwuno68"
+              className=" pt-1 mx-2 text-lime-100 text-md text-center"
+            >
               Follow on Twitter
-            </p>
+            </a>
           </div>
           <div className="flex">
             <a href="https://wa.me/message/2O47ANZPICY5M1">
               <FaWhatsapp size={30} className="cursor-poointer text-lime-200" />
             </a>
-            <p className=" pt-1 mx-2 text-lime-100 text-md text-center">
+            <a
+              href="https://wa.me/message/2O47ANZPICY5M1"
+              className=" pt-1 mx-2 text-lime-100 text-md text-center"
+            >
               Reach on Whatsapp
-            </p>
+            </a>
           </div>
 
           <div className="flex">
-            <a href="https://earthpasserby.github.io/ecommerce/detail.html">
-              <FaTwitter size={30} className="cursor-poointer text-lime-200" />
+            <a href="mailto:iwuno68@gmail.com">
+              <FaMailBulk size={30} className="cursor-poointer text-lime-200" />
             </a>
-            <p className=" pt-1 mx-2 text-lime-100 text-md text-center">
-              Reach on Instagram
-            </p>
+            <a
+              href="mailto:iwuno68@gmail.com"
+              className=" pt-1 mx-2 text-lime-100 text-md text-center"
+            >
+              Send a Mail
+            </a>
           </div>
         </div>
       </div>
-      <div>
-      
-        <a href="mailto:iwuno68@gmail.com">
-          <p className="p-2 rounded-lg text-lime-500 font-semibold text-2xl text-center bg-lime-100">
-            GET IN TOUCH
-          </p>
-        </a>
-        <p className=" mt-5 text-lime-100 text-sm text-center">
-          2024 Iwuno-Samuel. Reserved for Gigs
-        </p>
-      </div>
+
+      <p className=" mt-5 text-lime-100 text-sm text-center">
+        2024 Iwuno-Samuel. Reserved for Gigs
+      </p>
     </div>
   );
 };

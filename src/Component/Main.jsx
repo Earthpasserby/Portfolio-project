@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <div id="main">
       <img
-        className="w-full h-screen object-cover"
+        className="w-full h-screen object-cover mx-auto rounded-sm"
         src="Black.png"
         alt="background-image"
       />
