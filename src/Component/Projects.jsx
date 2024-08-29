@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import ProjectItem from "./ProjectItem";
 import auteImg from "../assets/asute.png";
 import comeImg from "../assets/come.png";

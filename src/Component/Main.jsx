@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import {  FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { TypeAnimation } from "react-type-animation";
