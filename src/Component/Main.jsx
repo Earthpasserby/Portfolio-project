@@ -1,5 +1,5 @@
 // import React from "react";
-import {  FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { TypeAnimation } from "react-type-animation";
 
@@ -25,7 +25,7 @@ const Main = () => {
                 2000,
                 "Writer.",
                 1000,
-                "Farmer&Entreprenuer.",
+                "Digital Enthusiast.",
                 2000,
               ]}
               wrapper="div"
