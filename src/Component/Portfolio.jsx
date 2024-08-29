@@ -6,14 +6,14 @@ const data = [
     title: "Iwuno Samuel",
     duration: "Intermediate",
     details:
-      "I started having a keen interest in tech in the last quarters of 2022, and decided to dive fully into it in the first quarters of 2023. The journey thus far has been quiet eventful which involves time, critical thinking and lots more. Currently on the Frontend Development stack and i can proudly say the global village thrives on technology, my experiences are on (Html, Css, Javascript, Bootstrap, Reactjs and TailwindCss) looking to skillup, also venture some of my time in writing and expand more on my specified niches.",
+      "I started having a keen interest in tech in the last quarters of 2022, and decided to dive fully into it in the first quarters of 2023. The journey thus far has been quiet eventful which involves time, critical thinking and lots more. Currently on the Frontend Development stack and i can proudly say the global village thrives on technology, my experiences are on (Html, Css, Javascript, Bootstrap, React.js and TailwindCss) looking to Upskill, also venture some of my time in writing and expand more on my specified niches.",
   },
   {
     year: 2024,
     title: "ProDevs",
     duration: "Active",
     details:
-      "At ProDevs currently on an internship role as a Frontend-Developer, which covers implementations of designs on figma using different frontend frameworks and language (Html, Css, Bootstrap, TailwindCss, React.js) framework and consumption of api for proper functionalities on web platforms",
+      "At ProDevs currently on an internship role as a Frontend-Developer, which covers implementations of designs on figma using different frontend frameworks and language (Html, Css, Javascript, Bootstrap, TailwindCss, React.js) framework and consumption of api for proper functionalities on web platforms",
   },
   {
     year: 2023,

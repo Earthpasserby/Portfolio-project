@@ -27,7 +27,7 @@ const Contact = () => {
             GET IN TOUCH
           </p>
           <p className=" mt-5 text-lime-100 text-sm text-center">
-            2024 Iwuno-Samuel. Reserved for gigs
+            2024 Iwuno-Samuel. Reserved for Gigs
           </p>
         </a>
       </div>
