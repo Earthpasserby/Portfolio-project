@@ -2,11 +2,11 @@ import React from "react";
 import Port from "./Port";
 const data = [
   {
-    year:2023,
-    title:'Iwuno Samuel',
-    duration:"Intermediate",
-    details:'',
-
+    year: 2023,
+    title: "Iwuno Samuel",
+    duration: "Intermediate",
+    details:
+      "I started having a keen interest in tech in the late 2022, and decided to dive fully it 2023 the journey so far has been demanding which involves time,critical thinking and lots more. Currently on the Frontend Development stack ",
   },
   {
     year: 2024,
