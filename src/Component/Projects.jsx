@@ -21,6 +21,36 @@ const Projects = () => {
         while enhancing or building up my skill set.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
+        <a href="https://www.talentapply.io/">
+          <ProjectItem
+            img={talentapply}
+            title="Discover(events & more)live project"
+          />
+        </a>
+        <a href="https://wilscotravels.com/">
+          <ProjectItem
+            img={wilsco}
+            title="Discover(events & more)live project"
+          />
+        </a>
+        <a href="https://astosilab.com/">
+          <ProjectItem
+            img={astosi}
+            title="Discover(events & more)live project"
+          />
+        </a>
+        <a href="https://prodevs.io/support">
+          <ProjectItem
+            img={support}
+            title="Discover(events & more)live project"
+          />
+        </a>
+        <a href="https://www.palynx.com/">
+          <ProjectItem
+            img={palynxImg}
+            title="Discover(events & more)live project"
+          />
+        </a>
         <a href="https://earthpasserby.github.io/ecommerce/detail.html">
           <ProjectItem img={comeImg} title="E-commerce demo " />
         </a>
@@ -29,36 +59,6 @@ const Projects = () => {
         </a>
         <a href="https://astutetechmedicals.com.ng/">
           <ProjectItem img={auteImg} title="Medical Outreach live project" />
-        </a>
-        <a href="https://www.palynx.com/">
-          <ProjectItem
-            img={palynxImg}
-            title="Discover(events & more)live project"
-          />
-        </a>
-        <a href="https://www.palynx.com/">
-          <ProjectItem
-            img={talentapply}
-            title="Discover(events & more)live project"
-          />
-        </a>
-        <a href="https://www.palynx.com/">
-          <ProjectItem
-            img={wilsco}
-            title="Discover(events & more)live project"
-          />
-        </a>
-        <a href="https://www.palynx.com/">
-          <ProjectItem
-            img={astosi}
-            title="Discover(events & more)live project"
-          />
-        </a>
-        <a href="https://www.palynx.com/">
-          <ProjectItem
-            img={support}
-            title="Discover(events & more)live project"
-          />
         </a>
       </div>
     </div>
