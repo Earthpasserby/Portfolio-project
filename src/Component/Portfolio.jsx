@@ -11,7 +11,7 @@ const data = [
   {
     year: 2025,
     title: "ProDevs",
-    duration: "9months",
+    duration: "(June 2024 - Febuary 2025)",
     details:
       "At ProDevs my internship role as a Frontend-Developer, which covered implementations of designs on figma using different frontend frameworks and language (Html, Css, Javascript, Bootstrap, TailwindCss, React.js) framework and consumption of api for proper functionalities on web platforms i was also privileged to work on some real time projects that cut accross (CMS, Web Portfolios and lots more) which has nurtured me in away.",
   },
