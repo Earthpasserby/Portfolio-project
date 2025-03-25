@@ -4,6 +4,10 @@ import auteImg from "../assets/asute.png";
 import comeImg from "../assets/come.png";
 import brandImg from "../assets/brand.png";
 import palynxImg from "../assets/palynx.png";
+import talentapply from "../assets/talentapply.png";
+import astosi from "../assets/astosi.png";
+import support from "../assets/support.png";
+import wilsco from "../assets/wilsco.png";
 
 const Projects = () => {
   return (
@@ -29,6 +33,30 @@ const Projects = () => {
         <a href="https://www.palynx.com/">
           <ProjectItem
             img={palynxImg}
+            title="Discover(events & more)live project"
+          />
+        </a>
+        <a href="https://www.palynx.com/">
+          <ProjectItem
+            img={talentapply}
+            title="Discover(events & more)live project"
+          />
+        </a>
+        <a href="https://www.palynx.com/">
+          <ProjectItem
+            img={wilsco}
+            title="Discover(events & more)live project"
+          />
+        </a>
+        <a href="https://www.palynx.com/">
+          <ProjectItem
+            img={astosi}
+            title="Discover(events & more)live project"
+          />
+        </a>
+        <a href="https://www.palynx.com/">
+          <ProjectItem
+            img={support}
             title="Discover(events & more)live project"
           />
         </a>
