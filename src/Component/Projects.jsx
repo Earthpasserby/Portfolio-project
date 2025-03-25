@@ -22,43 +22,28 @@ const Projects = () => {
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <a href="https://www.talentapply.io/">
-          <ProjectItem
-            img={talentapply}
-            title="Discover(events & more)live project"
-          />
+          <ProjectItem img={talentapply} title="view" />
         </a>
         <a href="https://wilscotravels.com/">
-          <ProjectItem
-            img={wilsco}
-            title="Discover(events & more)live project"
-          />
+          <ProjectItem img={wilsco} title="view" />
         </a>
         <a href="https://astosilab.com/">
-          <ProjectItem
-            img={astosi}
-            title="Discover(events & more)live project"
-          />
+          <ProjectItem img={astosi} title="view" />
         </a>
         <a href="https://prodevs.io/support">
-          <ProjectItem
-            img={support}
-            title="Discover(events & more)live project"
-          />
+          <ProjectItem img={support} title="view" />
         </a>
         <a href="https://www.palynx.com/">
-          <ProjectItem
-            img={palynxImg}
-            title="Discover(events & more)live project"
-          />
+          <ProjectItem img={palynxImg} title="view" />
         </a>
         <a href="https://earthpasserby.github.io/ecommerce/detail.html">
           <ProjectItem img={comeImg} title="E-commerce demo " />
         </a>
         <a href="https://tbp-site.vercel.app/">
-          <ProjectItem img={brandImg} title="Branding/Digital Marketing demo" />
+          <ProjectItem img={brandImg} title="view" />
         </a>
         <a href="https://astutetechmedicals.com.ng/">
-          <ProjectItem img={auteImg} title="Medical Outreach live project" />
+          <ProjectItem img={auteImg} title="view" />
         </a>
       </div>
     </div>
