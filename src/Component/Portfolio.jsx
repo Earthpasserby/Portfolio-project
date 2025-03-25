@@ -6,14 +6,14 @@ const data = [
     title: "Iwuno Samuel",
     duration: "Cover letter",
     details:
-      "I started having a keen interest in tech in the last quarters of 2022, and decided to dive fully into it in the first quarters of 2023. The journey thus far has been quiet eventful which involves time, critical thinking and lots more. Currently on the Frontend Development stack and i can proudly say the global village thrives on technology, my experiences are on (Html, Css, Javascript, Bootstrap, React.js and TailwindCss) looking to Upskill, also venture some of my time in writing and expand more on my specified niches.",
+      "I got into the tech space, where i learnt the basic structure of the web form, functions and style and decided to dive fully into it in the last quarters of 2023. The journey thus far has been quiet eventful which involves time, critical thinking and lots more. Currently on the Frontend Development stack and i can proudly say the global village thrives on technology, my experiences are on (Html, Css, Javascript, Bootstrap, React.js and TailwindCss) looking to Upskill, also venture some of my time in writing and expand more on my specified niches.",
   },
   {
-    year: 2024 - 2025,
+    year: 2025,
     title: "ProDevs",
     duration: "9months",
     details:
-      "At ProDevs currently on an internship role as a Frontend-Developer, which covers implementations of designs on figma using different frontend frameworks and language (Html, Css, Javascript, Bootstrap, TailwindCss, React.js) framework and consumption of api for proper functionalities on web platforms",
+      "At ProDevs my internship role as a Frontend-Developer, which covered implementations of designs on figma using different frontend frameworks and language (Html, Css, Javascript, Bootstrap, TailwindCss, React.js) framework and consumption of api for proper functionalities on web platforms i was also privileged to work on some real time projects that cut accross (CMS, Web Portfolios and lots more) which has nurtured me in away.",
   },
   // {
   // year: 2023,
