@@ -9,9 +9,9 @@ const data = [
       "I started having a keen interest in tech in the last quarters of 2022, and decided to dive fully into it in the first quarters of 2023. The journey thus far has been quiet eventful which involves time, critical thinking and lots more. Currently on the Frontend Development stack and i can proudly say the global village thrives on technology, my experiences are on (Html, Css, Javascript, Bootstrap, React.js and TailwindCss) looking to Upskill, also venture some of my time in writing and expand more on my specified niches.",
   },
   {
-    year: 2024,
+    year: 2024 - 2025,
     title: "ProDevs",
-    duration: "Active",
+    duration: "9months",
     details:
       "At ProDevs currently on an internship role as a Frontend-Developer, which covers implementations of designs on figma using different frontend frameworks and language (Html, Css, Javascript, Bootstrap, TailwindCss, React.js) framework and consumption of api for proper functionalities on web platforms",
   },
