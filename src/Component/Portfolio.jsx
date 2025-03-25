@@ -27,7 +27,7 @@ const data = [
     title: "INITS",
     duration: "6months",
     details:
-      "At INITS we were tasked to work on the Dangote Poverty Alleviation Program which was targeted for the women and girl child, We were able to accumulate datas for recipient of this aids across different local government in Nigeria",
+      "At INITS we were tasked to work on the Dangote Poverty Alleviation Program which was targeted for the women and girl child, We were able to accumulate data of recipient's of this aid across different local government in Nigeria",
   },
 ];
 
