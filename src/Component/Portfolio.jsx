@@ -6,7 +6,7 @@ const data = [
     title: "Iwuno Samuel",
     duration: "Cover letter",
     details:
-      "I got into the tech space where i learnt the basic structure of the web, form functions and style. In the last quarters of 2023 my journey into the frontend stack began. The journey thus far has been quiet eventful which involves time, critical thinking and lots more. Currently on the Frontend Development stack and i can proudly say the global village thrives on technology, my experiences are on (Html, Css, Javascript, Bootstrap, React.js and TailwindCss) looking to Upskill, also venture some of my time in writing and expand more on my specified niches.",
+      "I got into the tech space where i learnt the basic structure of the web, form functions to styling. In the last quarters of 2023 my journey into the frontend stack began. The journey thus far has been quiet eventful which involves time, critical thinking and lots more. Currently on the Frontend Development stack and i can proudly say the global village thrives on technology, my experiences are on (Html, Css, Javascript, Bootstrap, React.js and TailwindCss) looking to Upskill, also venture some of my time in writing and expand more on my specified niches.",
   },
   {
     year: 2025,
