@@ -16,9 +16,9 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8 text-green-800">
-        Here are some live and demo projects which i have worked on, i currently
-        have two live projects looking forward to get hands on more projects
-        while enhancing or building up my skill set.
+        Here are some live and demo projects which i have worked on, looking
+        forward to getting hands on more projects while enhancing or building up
+        my skill set.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <a href="https://www.talentapply.io/">
